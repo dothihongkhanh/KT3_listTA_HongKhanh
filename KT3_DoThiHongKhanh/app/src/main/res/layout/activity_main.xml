@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/bggg">
+    android:background="@drawable/bgro">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,15 +74,22 @@
             </LinearLayout>
 
         </LinearLayout>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:textStyle="italic"
+            android:text="*LongClick để xem chi tiết"/>
         <ListView
             android:id="@+id/lv"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:scrollbarSize="16dp"
             tools:layout_editor_absoluteX="16dp" />
+
     </LinearLayout>
 </RelativeLayout>
